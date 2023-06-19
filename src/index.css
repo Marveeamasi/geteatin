@@ -1,0 +1,184 @@
+.square{
+  font-family: 'Square Peg', cursive;
+}
+
+
+
+.squareI{
+  font-family: 'Square Peg', cursive;
+}
+
+.roboto{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+
+.robot{
+font-family: 'Roboto', sans-serif;
+}
+
+.shadow-c{
+text-shadow: -1px 0 5px rgba(0, 0, 0,.3);
+}
+
+.textsh{
+text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+
+.textshh{
+text-shadow: 0 0 5px rgba(255, 81, 0, 0.692);
+}
+
+.transition-c{
+  transition: 1s ease-out;
+}
+
+.inp{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+border: none;
+border-bottom: 1px solid rgba(128, 128, 128, 0.384);
+background-color: transparent;
+}
+
+
+.boxsh{
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.384);
+}
+
+.boxsh:hover{
+box-shadow: 0 0 10px rgba(255, 60, 0, 0.384);
+}
+
+
+.boxshI{
+box-shadow: 0 0 7px rgba(255, 60, 0, 0.486);
+}
+
+.boxshI:hover{
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.384);
+}
+
+.glass{
+background: rgba(255, 255, 255, 0.649);
+border-radius: 100% 0% 42% 58% / 40% 48% 52% 60% ;
+box-shadow: 0 0 10px rgba(255, 1810, 0, 0.418);
+backdrop-filter: blur(4.8px);
+-webkit-backdrop-filter: blur(4.8px);
+border: none;
+
+}
+
+.glasss{
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  }
+
+.niceShape{
+border-radius: 100% 0% 42% 58% / 40% 48% 52% 60% ;
+}
+
+.glassmd{
+  background: rgba(128, 128, 128, 0.801);
+  border-radius:50% ;
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
+  }
+
+.rubik{
+  font-family: 'Rubik 80s Fade', cursive;
+}
+  
+.glasssm{
+background: rgba(0, 0, 0, 0.692);
+border-radius:10% ;
+backdrop-filter: blur(6.8px);
+-webkit-backdrop-filter: blur(6.8px);
+padding: 5px;
+}
+
+  .glassin{
+    background: rgba(255, 255, 255, 0.801);
+    border-radius:10px ;
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    }
+
+@keyframes mymoveI {
+  0%   {opacity: 0;}
+  12%   {opacity:1;}
+  25%  {opacity: 0;}
+  33%   {opacity: 0;}
+  50%  {opacity: 0;}
+  63%   {opacity: 0;}
+  105%  {opacity: 0;}
+  83%   {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+@keyframes mymoveII {
+  0%   {opacity: 0;}
+  12%   {opacity:0;}
+  25%  {opacity: 0;}
+  33%   {opacity: 1;}
+  50%  {opacity: 0;}
+  63%   {opacity: 0;}
+  105%  {opacity: 0;}
+  83%   {opacity: 0;}
+  100% {opacity: 0;}
+
+}
+@keyframes mymoveIII {
+  0%   {opacity: 0;}
+  12%   {opacity:0;}
+  25%  {opacity: 0;}
+  33%   {opacity: 0;}
+  50%  {opacity: 0;}
+  63%   {opacity: 1;}
+  105%  {opacity: 0;}
+  83%   {opacity: 0;}
+  100% {opacity: 0;}
+}
+@keyframes mymoveIV {
+  0%   {opacity: 0;}
+  12%   {opacity:0;}
+  25%  {opacity: 0;}
+  33%   {opacity: 0;}
+  50%  {opacity: 0;}
+  63%   {opacity: 0;}
+  105%  {opacity: 0;}
+  83%   {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+
+.showI {
+  animation: mymoveI 15s infinite ;
+}
+
+.showII {
+  animation: mymoveII 15s infinite ;
+}
+
+.showIII {
+  animation: mymoveIII 15s infinite;
+}
+
+.showIV {
+  animation: mymoveIV 15s infinite;
+}
+
+.roundd{
+  border-radius: 30px;
+}
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

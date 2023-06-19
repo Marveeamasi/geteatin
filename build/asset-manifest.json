@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.43250158.css",
+    "main.js": "/static/js/main.90a2eff4.js",
+    "static/media/deliverygirl.png": "/static/media/deliverygirl.6564b5a351bdbf1dae6c.png",
+    "static/media/snacks2.png": "/static/media/snacks2.47e278ebfc4ca789a869.png",
+    "static/media/makemoney.png": "/static/media/makemoney.ca2c689aff2fb05a5202.png",
+    "static/media/healthyfood.jpg": "/static/media/healthyfood.29def9cda25a2b92b556.jpg",
+    "static/media/pizza.jpg": "/static/media/pizza.242aae053aa6559441c2.jpg",
+    "static/media/snack.jpg": "/static/media/snack.19caada637c03627eebc.jpg",
+    "static/media/deliverytp.jpg": "/static/media/deliverytp.cc13dd28b93c581ef8e0.jpg",
+    "static/media/hungrynerd.jpg": "/static/media/hungrynerd.48d3f0140fdcf0cac7d0.jpg",
+    "static/media/foodtruck.jpg": "/static/media/foodtruck.b88107497d1a1001ec02.jpg",
+    "index.html": "/index.html",
+    "main.43250158.css.map": "/static/css/main.43250158.css.map",
+    "main.90a2eff4.js.map": "/static/js/main.90a2eff4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43250158.css",
+    "static/js/main.90a2eff4.js"
+  ]
+}
